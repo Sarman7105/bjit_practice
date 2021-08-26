@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+.top{
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.innerTop{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top div{
+    padding: 5px 10px;
+}
+.innerTopContainer{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.navbar{
+    background: rgb(88, 85, 85);
+    min-height: 50px;
+    padding: 1px 0;
+}
+.innerNavbar{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.innerNavbar ul li{
+    list-style: none;
+    float: left;
+}
+#guess{
+    float: right;
+}
+.innerNavbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+}
+.innerNavbar ul li a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.article{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.articleItem{
+    padding: 0 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    background: #000;
+    padding: 30px;
+    color: #ffffff;
+    
+}
+.footer p{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* thsi section conatin css for post */
+
+.postContainer{
+
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.postsContainer{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.post{
+    padding: 10px;
+    width: 20%;
+    height: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.postDetails{
+    padding: 7px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(13, 145, 53);
+    border-width: 0;
+    border-radius: 5px;
+}
+
+/* this section css is for guessing game page */
+
+.guessHeader{
+    text-align: center;
+    margin-top: 5px;
+}
+.guessContainer{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.guessInputContainer{
+    padding: 20px;
+}
+.guessInput{
+    padding: 10px;
+    width: 30vw;
+    font-size: 17px;
+}
+.guessSubmit{
+    padding: 9px 15px;
+    margin-left: 10px;
+    width: 10vw;
+    background-color: green;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
+.guessError{
+    color: red;
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: none;
+}
+.guessResult{
+    margin-top: 10px;
+    font-size: 22px;
+    color: green;
+}
+/* .text{
+    width: 600px;
+} */
